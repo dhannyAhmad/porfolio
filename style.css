@@ -128,6 +128,23 @@ section::before {
     content: 'Photography';
 }
 
+.contact::before {
+    content: 'Contact';
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
 @keyframes updown {
     0% {
         transform: translatey(0);
