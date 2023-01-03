@@ -7,8 +7,6 @@ function toggleDetail(e) {
         $(target).html("less info").addClass("active")
     }
 
-    $(target).html("less info").addClass("active")
-
     const item = $(target).parents(".about-exp-item")
     const detail = $(item).children(".about-exp-item-detail")
 
